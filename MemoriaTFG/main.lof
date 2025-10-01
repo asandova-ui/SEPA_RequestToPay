@@ -1,0 +1,42 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\babel@toc {english}{}
+\babel@toc {spanish}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Modelo de 4 esquinas}}{9}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de flujo de intercambio RTP}}{11}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Esquema por capas}}{19}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces LayerComp}}{21}{figure.2.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de secuencia para CU‑01 (crear solicitud RTP).}}{30}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de secuencia para CU‑02 (decisión final RTP).}}{31}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Modelo entidad-relación del prototipo.}}{32}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Arquitectura lógica y flujo de dependencias del prototipo.}}{34}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Máquina de estados del objeto RTP.}}{35}{figure.3.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Estructura en árbol del directorio}}{40}{figure.4.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Variable \texttt {baseURL} en Postman}}{53}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces crearActor}}{53}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces crearActorResponse}}{54}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces MiAPITFG}}{54}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces RunResults}}{54}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces crearRTP}}{55}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces crearRTPResponse}}{55}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces validarBenef}}{55}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces validarBenefResponse}}{56}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces enrutarBenef}}{56}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces enrutarBenefResponse}}{56}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces validarPayer}}{56}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces validarPayerResponse}}{57}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces decision}}{57}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces decisionResponse}}{57}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces error1}}{58}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces error2\_1}}{58}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces error2\_2}}{59}{figure.5.18}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces error3}}{59}{figure.5.19}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

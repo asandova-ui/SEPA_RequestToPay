@@ -1,0 +1,22 @@
+\phantomsection
+\addcontentsline{toc}{section}{Resumen}
+
+\thispagestyle{empty}
+\selectlanguage{spanish}
+
+\chapter*{Resumen}
+En España, la domiciliación bancaria, regulada bajo el esquema \textit{SEPA\cite{ecb_sepa} Direct Debit} (SDD), es el método predominante para los cobros recurrentes. Este sistema permite a los acreedores realizar cargos automáticos en las cuentas de los deudores con una autorización previa. Sin embargo, presenta varias limitaciones que dificultan su adaptación a la economía digital actual.
+
+Frente a estas limitaciones, surge el esquema \textit{SEPA} Request-to-Pay} (SRTP) como una alternativa moderna. El SRTP permite a los beneficiarios enviar solicitudes de pago digitales a los pagadores, quienes pueden aceptarlas, rechazarlas o aplazarlas en tiempo real, utilizando la infraestructura de pagos instantáneos \textit{SEPA (SCT Inst)}.
+
+Este Trabajo de Fin de Grado tiene como objetivo explicar y demostrar el funcionamiento del SRTP como solución a las carencias del SDD. Para ello, se propone el diseño e implementación de un prototipo que simula el ciclo completo de una petición de pago: creación, presentación, decisión, ejecución y cierre. El prototipo se basa en una API desarrollada con un servidor web Flask, que gestiona las interacciones entre los actores del ecosistema SRTP (beneficiarios, pagadores y proveedores de servicios de pago) mediante una arquitectura orientada a eventos y una interfaz web en tiempo real.
+
+\newpage
+
+\selectlanguage{english}
+\chapter*{Abstract}
+In Spain, bank direct debit, regulated under the \textit{SEPA Direct Debit} (SDD) scheme~\cite{ecb_sepa}, is the predominant method for the collection of recurring payments. This arrangement allows creditors to initiate automatic debits from debtors' accounts once prior authorisation has been granted. Nevertheless, it exhibits several limitations that hinder its adaptation to the current digital economy.
+
+To overcome these limitations, the \textit{SEPA Request-to-Pay} (SRTP) scheme has emerged as a modern alternative. SRTP enables beneficiaries to send digital payment requests to payers, who can accept, reject or defer them in real time by using the \textit{SEPA Instant Credit Transfer} (SCT Inst) infrastructure.
+
+This bachelor thesis aims to explain and demonstrate how SRTP remedies the shortcomings of SDD. With this purpose, it proposes the design and implementation of a prototype that simulates the entire life cycle of a payment request: creation, presentation, decision, execution and closure. The prototype is based on an API implemented with a Flask web server, which manages the interactions among the actors within the SRTP ecosystem (beneficiaries, payers and payment service providers) by means of an event driven architecture and a real time web interface.

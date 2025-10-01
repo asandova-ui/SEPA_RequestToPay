@@ -1,0 +1,230 @@
+\documentclass{book}
+\usepackage{ragged2e}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage[spanish, english]{babel}
+\usepackage[hidelinks]{hyperref}
+%----------------------------------------
+% BIBLATEX + BIBER
+\usepackage[backend=biber,style=alphabetic,sorting=nyt,language=spanish]{biblatex}
+\addbibresource{bibliografia.bib}
+%----------------------------------------
+
+\usepackage{makecell}
+\usepackage[numbered,framed]{listings}
+\usepackage{color} % red, green, blue, yellow, cyan, magenta, black, white
+\usepackage{enumitem}
+\usepackage{lmodern}
+\usepackage{microtype} 
+\usepackage{array}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{footnote}          % <— nuevo
+\usepackage{siunitx}
+\usepackage{inputenc}
+\usepackage{threeparttable}
+\usepackage{tikz}       % Diagrama en capas (cubo)
+\usepackage{footmisc}   % Mejor gestión de notas a pie de página (opcional)
+\usepackage{adjustbox}
+\definecolor{mylilas}{RGB}{170,55,241}
+\definecolor{backcolour}{rgb}{0.92,0.95,0.95}
+
+\usepackage[printonlyused]{acronym}
+
+\usepackage{longtable}
+\usepackage{geometry}
+\usepackage{lipsum}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\lstdefinestyle{custom}{
+    backgroundcolor=\color{black!5},           % Fondo más sutil (gris muy claro)
+    basicstyle=\ttfamily\footnotesize,         % Fuente monoespaciada más pequeña y profesional
+    keywordstyle=\color{blue!70!black},        % Palabras clave en azul oscuro
+    stringstyle=\color{orange!80!black},       % Cadenas en naranja suave
+    commentstyle=\color{gray!50},              % Comentarios en gris claro
+    numberstyle=\tiny\color{gray!40},          % Números de línea discretos
+    numbers=left,                              % Números a la izquierda
+    numbersep=10pt,                            % Espaciado entre números y código
+    breaklines=true,                           % Romper líneas largas
+    breakatwhitespace=true,                    % Romper solo en espacios
+    frame=tb,                                  % Marco solo arriba y abajo (más elegante)
+    framesep=5pt,                              % Espaciado interno del marco
+    captionpos=b,                              % Título debajo
+    showstringspaces=false,                    % No mostrar espacios en cadenas
+    tabsize=4,                                 % Tamaño de tabulación
+    escapeinside={(*@}{@*)},                   % Permitir escapar a LaTeX dentro del código
+    morekeywords={app, def, return, send, register_blueprint, SocketIO} % Palabras clave adicionales
+}
+
+
+\newcolumntype{L}[1]{%
+  >{\setlength\parindent{1em}% sangría primera línea
+    \raggedright\arraybackslash}%
+  p{#1}%
+}
+
+\AtBeginDocument{\justifying}
+\begin{document}
+
+\frontmatter
+
+
+% Configurando la numeración arábiga desde el inicio
+\pagenumbering{arabic}
+
+% Creando la portada
+\begin{titlepage}
+    \centering
+    {\includegraphics[width=0.9\textwidth]{Imagenes/Universidad-de-Valladolid.png}}\par
+    {\bfseries\Large Escuela Técnica Superior de Ingenieros de Telecomunicación\par}
+    \vspace{0.5cm}
+    {\bfseries\itshape\Large Trabajo de Fin de Grado \par}
+    \vspace{0.5cm}
+    {\scshape Grado en Ingeniería de Tecnologías de Telecomunicación \par}
+    \vspace{0.5cm}
+    {\bfseries\scshape\Large \textit{Request To Pay} frente a la domiciliación bancaria: propuesta de mejora e implementación de un prototipo \par}
+    \vspace{1.5cm}
+    { Autor: \\}
+    { Alonso Sandoval Martínez }\\
+    \vspace{0.5cm}
+    { Tutor:\\}
+    { Federico Simmross Wattenberg }\\
+    \vspace{1.5cm} {Valladolid, junio 2025 \par}
+\end{titlepage}
+
+% Configurando el idioma
+\selectlanguage{spanish}  
+
+% Añadiendo los agradecimientos desde un archivo externo
+\newpage
+\input{src/agradecimientos.tex}
+
+% Añadiendo el resumen en español
+\newpage
+\input{src/resumen.tex}
+
+% Añadiendo el índice justo después de la portada
+\newpage
+\tableofcontents
+
+\newpage
+\phantomsection % Añade un destino para el hipervínculo
+\chapter*{Lista de acrónimos}
+\label{sec:Lista de acrónimos}
+\addcontentsline{toc}{section}{Lista de acrónimos} % Añade al índice con el destino correcto
+\begin{acronym}[SRTP]
+\begin{enumerate}
+  \item API – Application Programming Interface
+  \item CDN – Content Delivery Network
+  \item CSS3 – Cascading Style Sheets 3
+  \item EBA – Euro Banking Association
+  \item EDS – Electronic Data Submission
+  \item EDS-Dir – EPC Directory Service
+  \item EPC – European Payments Council
+  \item ERPB – Euro Retail Payments Board
+  \item ES6 – ECMAScript 6
+  \item HTML5 – HyperText Markup Language 5
+  \item HTTP – Hypertext Transfer Protocol
+  \item IBAN – International Bank Account Number
+  \item ISO20022 – International Organization for Standardization 20022
+  \item JSON – JavaScript Object Notation
+  \item NFC – Near Field Communication
+  \item ORM – Object-Relational Mapping
+  \item POS – Point of Sale
+  \item PSD2 – Payment Services Directive 2
+  \item PSP – Payment Service Provider
+  \item QR – Quick Response
+  \item RTP – Request-to-Pay
+  \item SCA – Strong Customer Authentication
+  \item SCT – SEPA Credit Transfer
+  \item SCT Inst – SEPA Instant Credit Transfer
+  \item SEPA – Single Euro Payments Area
+  \item SDD – SEPA Direct Debit
+  \item SRTP – SEPA Request-to-Pay
+  \item TCP – Transmission Control Protocol
+  \item TFG – Trabajo de Fin de Grado
+  \item TIPS – TARGET Instant Payment Settlement
+  \item TPV – Terminal Punto de Venta
+  \item WSGI – Web Server Gateway Interface
+\end{enumerate}
+\end{acronym}
+
+% Volviendo al español para el resto del documento
+\selectlanguage{spanish} 
+
+\mainmatter
+
+% Comenzando el cuerpo principal (numeración ya es arábiga)
+\newpage
+
+
+
+\input{src/introduccion.tex}
+\newpage
+
+
+
+\input{src/estado_arte.tex}
+\newpage
+
+
+\input{src/diseño.tex}
+\newpage
+
+
+
+% 3. Diseño e Implementación
+\input{src/implementacion.tex}
+%\newpage
+\newpage
+
+
+
+\input{src/validacion.tex}
+\newpage
+
+
+
+\newpage
+\input{src/conclusiones.tex}
+\newpage
+% Añadiendo los apéndices
+\clearpage
+
+
+
+
+\newpage
+
+\backmatter
+
+\input{src/codigos.tex}
+% Añadiendo el índice de figuras
+\newpage
+\renewcommand{\listfigurename}{Índice de Figuras}
+\listoffigures
+\addcontentsline{toc}{section}{Índice de Figuras}
+
+% Añadiendo el índice de tablas
+\newpage
+\renewcommand{\listtablename}{Índice de Tablas}
+\listoftables
+\addcontentsline{toc}{section}{Índice de Tablas}
+
+% Añadiendo el índice de códigos
+\newpage
+\renewcommand*{\lstlistlistingname}{Índice de Listados}
+\renewcommand*{\lstlistingname}{Código}
+\lstlistoflistings
+\addcontentsline{toc}{section}{Índice de Listados}
+
+% Añadiendo las referencias
+\clearpage
+\nocite{*}
+\printbibliography[title={Bibliografía}]
+
+
+\end{document}

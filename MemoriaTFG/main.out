@@ -1,0 +1,56 @@
+\BOOKMARK [1][-]{section*.1}{Agradecimientos}{}% 1
+\BOOKMARK [1][-]{section*.3}{Resumen}{}% 2
+\BOOKMARK [1][-]{chapter*.8}{Lista de acr\363nimos}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Motivaci\363n}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.1}{Ineficiencias operativas detectadas}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.2}{Oportunidad de un esquema RTP}{section.1.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Objetivos fundamentales}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Fases y M\351todos}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Antecedentes y estado del arte}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Evoluci\363n de los medios de pago hacia SEPA}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{El papel del EPC en la estandarizaci\363n y el surgimiento de Request-to-Pay}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Funcionamiento t\351cnico de SEPA Request-to-Pay \(SRTP\)}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{RTP dentro del ecosistema de pagos: arquitectura en capas}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Dise\361o}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Objetivos t\351cnicos}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Actores y alcance}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{Requisitos}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.1}{Requisitos funcionales \(RF\)}{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.2}{Requisitos no funcionales \(RNF\)}{section.3.3}% 20
+\BOOKMARK [1][-]{section.3.4}{Casos de uso}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.4.1}{CU-01 Crear solicitud RTP}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.2}{CU-02: Decidir solicitud RTP}{section.3.4}% 23
+\BOOKMARK [1][-]{section.3.5}{Modelo de datos}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.6}{Arquitectura l\363gica}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.6.1}{Componentes principales}{section.3.6}% 26
+\BOOKMARK [2][-]{subsection.3.6.2}{Flujo de interacci\363n l\363gico}{section.3.6}% 27
+\BOOKMARK [1][-]{section.3.7}{Emulaci\363n del flujo RTP}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.7.1}{M\341quina de estados del objeto RTP}{section.3.7}% 29
+\BOOKMARK [2][-]{subsection.3.7.2}{Transiciones y reglas de negocio}{section.3.7}% 30
+\BOOKMARK [2][-]{subsection.3.7.3}{Condiciones excepcionales y timeouts}{section.3.7}% 31
+\BOOKMARK [0][-]{chapter.4}{Implementaci\363n}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Visi\363n general de la arquitectura y organizaci\363n del c\363digo}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.1.1}{Componentes del servidor}{section.4.1}% 34
+\BOOKMARK [2][-]{subsection.4.1.2}{Estructura de directorios}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.3}{Satisfacci\363n de requisitos}{section.4.1}% 36
+\BOOKMARK [1][-]{section.4.2}{Persistencia y modelos ORM}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.3}{Servicios de dominio}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{API REST y WebSocket}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.5}{Blueprints y su prop\363sito}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.6}{Endpoints REST}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.7}{Frontend y notificaciones}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.8}{Despliegue y configuraci\363n}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.8.1}{Ejecuci\363n del sistema}{section.4.8}% 44
+\BOOKMARK [2][-]{subsection.4.8.2}{Conclusi\363n}{section.4.8}% 45
+\BOOKMARK [0][-]{chapter.5}{Validacion}{}% 46
+\BOOKMARK [1][-]{section.5.1}{Entorno de pruebas}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.2}{Metodolog\355a}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.3}{Flujo happy path}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.4}{Escenarios de error}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.5}{Conclusiones}{chapter.5}% 51
+\BOOKMARK [0][-]{chapter.6}{Conclusiones}{}% 52
+\BOOKMARK [0][-]{chapter.7}{L\355neas futuras}{}% 53
+\BOOKMARK [1][-]{chapter*.28}{\315ndice de Figuras}{chapter.7}% 54
+\BOOKMARK [1][-]{chapter*.29}{\315ndice de Tablas}{chapter.7}% 55
+\BOOKMARK [1][-]{chapter*.30}{\315ndice de Listados}{chapter.7}% 56

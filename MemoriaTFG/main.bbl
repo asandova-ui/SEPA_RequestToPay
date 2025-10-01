@@ -1,0 +1,666 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{ECB_TIPS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4e9fffc9229d54983a35e60a61cb5da4}{%
+           family={Bank},
+           familyi={B\bibinitperiod},
+           given={European\bibnamedelima Central},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{fullhash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{bibnamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authorbibnamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authornamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authorfullhash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \field{extraname}{1}
+      \field{labelalpha}{Ban18}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{TARGET Instant Payment Settlement (TIPS)}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.ecb.europa.eu/paym/target/tips/html/index.en.html
+      \endverb
+      \verb{url}
+      \verb https://www.ecb.europa.eu/paym/target/tips/html/index.en.html
+      \endverb
+    \endentry
+    \entry{ECB_ERPB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4e9fffc9229d54983a35e60a61cb5da4}{%
+           family={Bank},
+           familyi={B\bibinitperiod},
+           given={European\bibnamedelima Central},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{fullhash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{bibnamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authorbibnamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authornamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authorfullhash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \field{extraname}{2}
+      \field{labelalpha}{Ban20}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{Euro Retail Payments Board (ERPB) – SEPA Request-to-Pay status update}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.ecb.europa.eu/paym/groups/erpb/shared/pdf/14th-ERPB-meeting/Status_update_on_the_SEPA_request-to-pay_scheme.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ecb.europa.eu/paym/groups/erpb/shared/pdf/14th-ERPB-meeting/Status_update_on_the_SEPA_request-to-pay_scheme.pdf
+      \endverb
+    \endentry
+    \entry{ecb_sepa}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4e9fffc9229d54983a35e60a61cb5da4}{%
+           family={Bank},
+           familyi={B\bibinitperiod},
+           given={European\bibnamedelima Central},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{fullhash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{bibnamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authorbibnamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authornamehash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \strng{authorfullhash}{4e9fffc9229d54983a35e60a61cb5da4}
+      \field{extraname}{3}
+      \field{labelalpha}{Ban23}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{{Single Euro Payments Area (SEPA) – Overview}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html
+      \endverb
+      \verb{url}
+      \verb https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html
+      \endverb
+    \endentry
+    \entry{EBA_RT1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=25be8a200f984571c2e98a03d6451a2a}{%
+           family={Clearing},
+           familyi={C\bibinitperiod},
+           given={EBA},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{25be8a200f984571c2e98a03d6451a2a}
+      \strng{fullhash}{25be8a200f984571c2e98a03d6451a2a}
+      \strng{bibnamehash}{25be8a200f984571c2e98a03d6451a2a}
+      \strng{authorbibnamehash}{25be8a200f984571c2e98a03d6451a2a}
+      \strng{authornamehash}{25be8a200f984571c2e98a03d6451a2a}
+      \strng{authorfullhash}{25be8a200f984571c2e98a03d6451a2a}
+      \field{labelalpha}{Cle17}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{RT1 – Pan-European Real-Time Gross Settlement System}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.ebaclearing.eu/services-instant-payments/rt1/
+      \endverb
+      \verb{url}
+      \verb https://www.ebaclearing.eu/services-instant-payments/rt1/
+      \endverb
+    \endentry
+    \entry{EU_IBAN_2001}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a9bee3ff64e0ef4f06532e455eb1658f}{%
+           family={Commission},
+           familyi={C\bibinitperiod},
+           given={European},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9bee3ff64e0ef4f06532e455eb1658f}
+      \strng{fullhash}{a9bee3ff64e0ef4f06532e455eb1658f}
+      \strng{bibnamehash}{a9bee3ff64e0ef4f06532e455eb1658f}
+      \strng{authorbibnamehash}{a9bee3ff64e0ef4f06532e455eb1658f}
+      \strng{authornamehash}{a9bee3ff64e0ef4f06532e455eb1658f}
+      \strng{authorfullhash}{a9bee3ff64e0ef4f06532e455eb1658f}
+      \field{labelalpha}{Com01}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{Commission Recommendation 2001/609/EC on the use of the IBAN}}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/eli/reco/2001/609/oj
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/eli/reco/2001/609/oj
+      \endverb
+    \endentry
+    \entry{fourcorner_wiki}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{labelalpha}{con25}
+      \field{sortinit}{c}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{Four Corners Model for Payment Security}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Four_Corners_Model_for_Payment_Security
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Four_Corners_Model_for_Payment_Security
+      \endverb
+    \endentry
+    \entry{epc098_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{1}
+      \field{labelalpha}{Cou21}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{EDS – EPC Directory Service Rulebook v1.0}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/rulebooks/epc098-21-eds-directory-service-rulebook-version-10
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/rulebooks/epc098-21-eds-directory-service-rulebook-version-10
+      \endverb
+    \endentry
+    \entry{epc137}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{2}
+      \field{labelalpha}{Cou23}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{EPC137 - SRTP Implementation Guidelines}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/implementation-guidelines/sepa-request-pay-implementation-guidelines-version-30
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/implementation-guidelines/sepa-request-pay-implementation-guidelines-version-30
+      \endverb
+    \endentry
+    \entry{epc164}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{3}
+      \field{labelalpha}{Cou23}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{EPC164 - API Security Framework}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2024-10/EPC164-22%20v2.0%20API%20Security%20Framework.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2024-10/EPC164-22%20v2.0%20API%20Security%20Framework.pdf
+      \endverb
+    \endentry
+    \entry{epc125_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{4}
+      \field{labelalpha}{Cou23}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{SEPA Credit Transfer Scheme Rulebook v1.1}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2023-11/EPC125-05%202023%20SCT%20Rulebook%20version%201.1_1.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2023-11/EPC125-05%202023%20SCT%20Rulebook%20version%201.1_1.pdf
+      \endverb
+    \endentry
+    \entry{epc_sdd_2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{5}
+      \field{labelalpha}{Cou24}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF}
+      \field{title}{{2025 SEPA Direct Debit Core Rulebook v1.0}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/rulebooks/2025-sepa-direct-debit-core-rulebook-version-10
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/rulebooks/2025-sepa-direct-debit-core-rulebook-version-10
+      \endverb
+    \endentry
+    \entry{epc_sctinst_2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{6}
+      \field{labelalpha}{Cou24}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF}
+      \field{title}{{2025 SEPA Instant Credit Transfer Rulebook v1.0}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/rulebooks/2025-sepa-instant-credit-transfer-rulebook-version-10
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/document-library/rulebooks/2025-sepa-instant-credit-transfer-rulebook-version-10
+      \endverb
+    \endentry
+    \entry{EPC_official}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{7}
+      \field{labelalpha}{Cou25}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{European Payments Council (EPC) – Official Website}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/
+      \endverb
+    \endentry
+    \entry{epc016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{8}
+      \field{labelalpha}{Cou25}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF}
+      \field{title}{{SEPA Direct Debit Core Scheme Rulebook v1.0}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2024-11/EPC016-06%202025%20SDD%20Core%20Rulebook%20version%201.0.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2024-11/EPC016-06%202025%20SDD%20Core%20Rulebook%20version%201.0.pdf
+      \endverb
+    \endentry
+    \entry{epc014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea98b1a37c0d13b9bc31c061f6b41258}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={European\bibnamedelima Payments},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{fullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{bibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorbibnamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authornamehash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \strng{authorfullhash}{ea98b1a37c0d13b9bc31c061f6b41258}
+      \field{extraname}{9}
+      \field{labelalpha}{Cou25}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SRTP Scheme Rulebook v4.0}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2024-11/EPC014-20%20v4.0%20SEPA%20RTP%20Scheme%20Rulebook.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2024-11/EPC014-20%20v4.0%20SEPA%20RTP%20Scheme%20Rulebook.pdf
+      \endverb
+    \endentry
+    \entry{EC_2018_RTS_SCA}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a1b813a6e85874b4c945aec2cdbea74c}{%
+           family={{European Commission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{bibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorbibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authornamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \field{labelalpha}{Eur18}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{{Commission Delegated Regulation (EU) 2018/389 of 27 November 2017 supplementing Directive (EU) 2015/2366 with regard to regulatory technical standards for strong customer authentication and common and secure open standards of communication}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018R0389
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018R0389
+      \endverb
+    \endentry
+    \entry{eu_260_2012}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3179956fa9e74184739a2680047976ee}{%
+           family={{European Parliament and Council}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3179956fa9e74184739a2680047976ee}
+      \strng{fullhash}{3179956fa9e74184739a2680047976ee}
+      \strng{bibnamehash}{3179956fa9e74184739a2680047976ee}
+      \strng{authorbibnamehash}{3179956fa9e74184739a2680047976ee}
+      \strng{authornamehash}{3179956fa9e74184739a2680047976ee}
+      \strng{authorfullhash}{3179956fa9e74184739a2680047976ee}
+      \field{labelalpha}{Eur12}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Consultado el 23-06-2025}
+      \field{title}{{Regulation (EU) No 260/2012 of 14 March 2012 on the establishment of technical and business requirements for credit transfers and direct debits in euros}}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/eli/reg/2012/260/oj
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/eli/reg/2012/260/oj
+      \endverb
+    \endentry
+    \entry{sdd_chargebacks_adyen}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=57c3cbb2900921a5e689683d906e78d5}{%
+           family={N.V.},
+           familyi={N\bibinitperiod},
+           given={Adyen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{57c3cbb2900921a5e689683d906e78d5}
+      \strng{fullhash}{57c3cbb2900921a5e689683d906e78d5}
+      \strng{bibnamehash}{57c3cbb2900921a5e689683d906e78d5}
+      \strng{authorbibnamehash}{57c3cbb2900921a5e689683d906e78d5}
+      \strng{authornamehash}{57c3cbb2900921a5e689683d906e78d5}
+      \strng{authorfullhash}{57c3cbb2900921a5e689683d906e78d5}
+      \field{labelalpha}{NV24}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{{SEPA chargebacks – guidelines}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.adyen.com/risk-management/chargeback-guidelines/sepa-chargebacks/
+      \endverb
+      \verb{url}
+      \verb https://docs.adyen.com/risk-management/chargeback-guidelines/sepa-chargebacks/
+      \endverb
+    \endentry
+    \entry{reg260_2012}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=c25d305ea83de23a244dd39c979ff060}{%
+           family={Parliament},
+           familyi={P\bibinitperiod},
+           given={European},
+           giveni={E\bibinitperiod}}}%
+        {{hash=842ce398b1702101f875c12f96474778}{%
+           family={Council},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{483cdb9be83ff2a79f86cddbd546801f}
+      \strng{fullhash}{483cdb9be83ff2a79f86cddbd546801f}
+      \strng{bibnamehash}{483cdb9be83ff2a79f86cddbd546801f}
+      \strng{authorbibnamehash}{483cdb9be83ff2a79f86cddbd546801f}
+      \strng{authornamehash}{483cdb9be83ff2a79f86cddbd546801f}
+      \strng{authorfullhash}{483cdb9be83ff2a79f86cddbd546801f}
+      \field{labelalpha}{PC12}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{{Regulation (EU) No 260/2012 on credit transfers and direct debits}}
+      \field{year}{2012}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/eli/reg/2012/260/oj
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/eli/reg/2012/260/oj
+      \endverb
+    \endentry
+    \entry{sdd_study_steinbeis}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1003db1fc58de142f1ee1aa09bcdfbc0}{%
+           family={Research\bibnamedelimb Center\bibnamedelimb for\bibnamedelimb Financial\bibnamedelima Services},
+           familyi={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Steinbeis\bibnamedelimb University\bibnamedelima Berlin},
+           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1003db1fc58de142f1ee1aa09bcdfbc0}
+      \strng{fullhash}{1003db1fc58de142f1ee1aa09bcdfbc0}
+      \strng{bibnamehash}{1003db1fc58de142f1ee1aa09bcdfbc0}
+      \strng{authorbibnamehash}{1003db1fc58de142f1ee1aa09bcdfbc0}
+      \strng{authornamehash}{1003db1fc58de142f1ee1aa09bcdfbc0}
+      \strng{authorfullhash}{1003db1fc58de142f1ee1aa09bcdfbc0}
+      \field{labelalpha}{Res10}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF}
+      \field{title}{{SEPA Direct Debit – a success story for the European payment market}}
+      \field{year}{2010}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.steinbeis-research.de/pdf/Study_SEPA_Direct_Debit.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.steinbeis-research.de/pdf/Study_SEPA_Direct_Debit.pdf
+      \endverb
+    \endentry
+    \entry{iso20022_55005}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d09e7fcc2435a0349538e27d16bc4365}{%
+           family={Standardization},
+           familyi={S\bibinitperiod},
+           given={International\bibnamedelima Organization},
+           giveni={I\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={for},
+           prefixi={f\bibinitperiod}}}%
+      }
+      \strng{namehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{fullhash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{bibnamehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{authorbibnamehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{authornamehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{authorfullhash}{d09e7fcc2435a0349538e27d16bc4365}
+      \field{labelalpha}{Sta13}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{{ISO 20022 Financial services – Universal financial industry message scheme}}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/55005.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/55005.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

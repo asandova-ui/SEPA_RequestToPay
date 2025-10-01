@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Great+Vibes&display=swap');
+
+/* Fondo y tipografía general */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+    color: #fff; /* color general blanco */
+    position: relative;
+}
+
+/* Aseguramos color de texto oscuro en card-body, formularios, etc. */
+.card-body, .card-body * {
+    color: #333 !important;
+}
+
+/* Ajuste para inputs y selects, para texto visible en fondos claros */
+input, select, textarea {
+    color: #333 !important;
+}
+
+/* Secciones invisibles y animación */
+.invisible-section {
+    display: none;
+}
+.fadeIn {
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.nav-link {
+    cursor: pointer;
+    color: #fff !important;
+}
+.nav-link i {
+    margin-right: 8px;
+}
+
+/* Dashboard principal */
+.dash-bg {
+    background: url('https://www.transparenttextures.com/patterns/45-degree-fabric.png'), 
+                linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    min-height: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Circle */
+.balance-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #fff 0%, #f0f0f0 100%);
+    border: 5px solid #d4af37;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden; /* Evita el overflow si se pasa */
+}
+.balance-circle:hover {
+    transform: scale(1.05);
+}
+.balance-circle h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    white-space: nowrap; 
+    overflow: visible; 
+    text-overflow: clip; 
+}
+
+/* Foto y contenedor del usuario */
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d4af37;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+.user-info-container {
+    text-align: center;
+}
+
+/* Nombre e IBAN */
+.user-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: #d4af37;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.iban-card {
+    background: linear-gradient(135deg, #d4af37, #f0e68c);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    display: inline-block;
+}
+.iban-card:hover {
+    transform: translateY(-5px);
+}
+.iban-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Headers de las cards */
+.card-header {
+    font-weight: bold;
+}
+
+/* Menú inferior con texto visible + animación hover */
+#bottomMenuSquares .card-body.menu-square-text {
+    background-color: #f8f8f8;
+    color: #333;
+    font-weight: 600;
+}
+.menu-item {
+    transition: transform 0.2s ease-in-out;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Alertas */
+.alert {
+    white-space: pre-wrap; /* Para mostrar JSON con saltos de línea */
+}

@@ -1,0 +1,35 @@
+\chapter{Conclusiones}
+\label{sec:Conclusiones}
+
+El desarrollo de este TFG ha representado un esfuerzo significativo que ha culminado en la creación de un prototipo funcional de un servidor HTTP basado en el esquema RTP. El objetivo principal del proyecto —diseñar e implementar un software que simulara las operaciones fundamentales del esquema SEPA RTP utilizando tecnologías actuales y accesibles— se ha alcanzado con éxito. Este trabajo no solo me ha permitido poner en práctica los conocimientos adquiridos durante mi formación en telecomunicaciones y desarrollo de software, sino también explorar un ámbito tan relevante como los sistemas de pago digitales, que desempeñan un papel crucial en la economía global de hoy.
+
+\vspace{0.5cm}
+
+A nivel personal, este TFG ha sido una buena oportunidad para profundizar en el ecosistema SEPA y sus diferentes esquemas de pago. En particular, he podido analizar las limitaciones del SDD y contrastarlas con las ventajas que ofrece RTP. Este aprendizaje no se ha limitado al ámbito teórico: la implementación práctica del prototipo me ha enfrentado a retos técnicos que han fortalecido mis competencias como desarrollador.
+
+\vspace{0.5cm}
+
+El proceso de desarrollo también ha sido una lección sobre la importancia de una metodología bien definida, lo que me permitió avanzar de manera constante, detectar errores a tiempo y ajustar los objetivos según las necesidades del proyecto. Este enfoque estructurado, combinado con una documentación detallada de cada etapa, ha sido clave para mantener el control sobre el proyecto.
+\vspace{0.5cm}
+
+
+El sistema RTP se posiciona como un candidato ideal paraq convertirse en un estándar en la zona SEPA, especialmente a medida que más instituciones financieras y PSP adopten el esquema y lo integren en sus operaciones. En el futuro, es probable que RTP no solo facilite los pagos entre empresas y consumidores, sino que también fomente una mayor interoprabilidad y eficiencia en el mercado financiaro europeo, contribuyendo a una economía más conectada y dinámica.
+\vspace{0.5cm}
+
+\newpage
+\null
+\clearpage
+\chapter{Líneas futuras}
+\label{sec:Potencial}
+En cuanto al prototipo desarollado, aunque satisface plenamente los objetivos establecidos para este TFG, su potencial va mucho más allá de un simple ejercicio acádemico. Durante el proceso identifiqué varias áreas de mejora que podrían transformar este simulador en una herramienta aplicable en escenarios reales. A continuación, detallo algunas de estas oportunidades de evolución:
+
+\begin{enumerate}
+    \item \textbf{Escalabilidad del sistema:} La base de datos SQLite, aunque suficiente para un prototipo, tiene limitaciones en térmninos de rendimiento y capacidad. Para soportar un mayor volumen de usuarios y transacciones, sería necesario migrar a un sistema más robusto como PostgreSQL o MySQL, que ofrecen mejor escalabilidad y soporte para entornos de producción.
+    \item \textbf{Fortalecimiento de la seguridad:} El prototipo incluye medidas básicas de autenticación, pero un sistema real requeriría estándares más altos, como la encriptación de extremo a extremo, autenticación multifactor y cumplimiento con normativas como PSD2 (Payment Services Directive 2) y GDPR (General Data Protection Regulation). Estas mejoras garantizarían la protección de los datos sensibles y la confianza de los usuarios.
+    \item \textbf{Interoperabilidad con sistemas bancarios:} Para que el prototipo trascienda su estado actual, sería esencial integrarlo con las APIs de bancos y PSP reales. Esto permitiría ejecutar transacciones monetarias auténticas y demostrar su utilidad en un contexto práctico, un paso crítico hacia su adopción en el mundo real.
+    \item \textbf{Ampliación de funcionalidades:} El sistema podría enriquecerse con características avanzadas, como soporte para pagos recurrentes (ideal para suscripciones o facturas periódicas), compatibilidad con múltiples monedas (facilitando transacciones transfronterizas), herramientas analíticas que ofrezcan estadísticas a los usuarios, y reportes detallados sobre el historial de pagos. Estas adiciones harían que el sistema fuera más versátil y atractivo para distintos tipos de usuarios.
+    \item \textbf{Mejora de la experiencia de usario:} Aunque el frontend actual es funcional, podría optimizarse con un diseño más moderno y accesible. Incorporar elementos como notificaciones push, un historial visual de transacciones, opciones de personalización y una interfaz adaptada a dispositivos móviles elevaría la usabilidad y la satisfacción del usuario.
+\end{enumerate}
+
+Estas mejoras, aunque son algo ambiciosas, son alcanzables con el tiempo y los recursos adecuados. Implementarlas no solo incrementaría la funcionalidad del prototipo, sino que también lo alinearía con las demandas de un mercado financiero en constante camnbio, donde la innovación y la adaptabilidad son esenciales.
+\vspace{0.5cm}
